@@ -1,0 +1,6 @@
+server:
+  port: 8084
+spring:
+  data:
+    mongodb:
+      uri: mongodb://admin:mongo@localhost:20000/creditDB?authSource=admin&retryWrites=true&w=majority
